@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando Plataformas de Versionamiento: GitHub, GitLab y Bitbucket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif; /* Fuente moderna */
+            line-height: 1.7; /* Mejora la legibilidad */
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Fondo muy claro */
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50; /* Títulos más oscuros */
+            font-weight: 600; /* Peso de fuente semibold para títulos */
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2.25rem; /* Tamaño de fuente más grande para el título principal */
+            text-align: center;
+            margin-top: 2rem;
+        }
+        h2 {
+            font-size: 1.75rem; /* Tamaño de fuente más grande para los títulos de sección */
+        }
+        h3 {
+            font-size: 1.25rem; /* Tamaño de fuente más grande para los subtítulos */
+            color: #3498db; /* Azul más vivo para los subtítulos de plataforma */
+            margin-top: 1.5rem;
+        }
+        p {
+            font-size: 1rem;
+            color: #444; /* Color de texto ligeramente más oscuro */
+            margin-bottom: 1.5rem;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+        a {
+            color: #3498db; /* Azul más vivo para los enlaces */
+            text-decoration: none;
+            transition: color 0.2s ease; /* Transición suave para el color del enlace */
+        }
+        a:hover {
+            color: #217dbb; /* Color del enlace más oscuro al pasar el mouse */
+            text-decoration: underline;
+        }
+        .container {
+            background-color: #fff;
+            padding: 2.5rem; /* Aumento del padding */
+            border-radius: 10px; /* Radio de borde ligeramente mayor */
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Sombra más sutil */
+            margin-bottom: 2rem;
+            max-width: 900px; /* Ancho máximo para el contenedor principal */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .platform {
+            border-left: 5px solid #3498db; /* Color del borde de la plataforma */
+            padding-left: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .platform h3 {
+            color: #2c3e50; /* Color del título de la plataforma más oscuro */
+        }
+        .conclusion {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        /* Estilos para hácer la página responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            h3 {
+                font-size: 1.125rem;
+            }
+            p {
+                font-size: 0.95rem;
+            }
+            ul {
+                margin-left: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Plataformas Populares para el Versionamiento de Código</h1>
+    <p>En el mundo del desarrollo de software, las plataformas de versionamiento de código son herramientas esenciales para colaborar, realizar un seguimiento de los cambios y gestionar proyectos de manera eficiente. Aquí exploraremos tres de las más populares: GitHub, GitLab y Bitbucket.</p>
+</div>
+
+<div class="container platform">
+    <h2><a href="https://github.com/" target="_blank">GitHub</a></h2>
+    <h3>Descripción</h3>
+    <p><strong>GitHub</strong> es una plataforma de desarrollo colaborativo basada en la web que utiliza el sistema de control de versiones Git. Es ampliamente utilizado por desarrolladores de todo el mundo para alojar y revisar código, gestionar proyectos y construir software de manera colaborativa.</p>
+    <h3>Características Clave</h3>
+    <ul>
+        <li><strong>Repositorios Públicos y Privados:</strong> Permite alojar código de forma pública para proyectos de código abierto o de forma privada para proyectos con acceso restringido.</li>
+        <li><strong>Pull Requests:</strong> Un sistema robusto para proponer y revisar cambios en el código antes de ser integrados.</li>
+        <li><strong>Issues:</strong> Herramienta para el seguimiento de errores, tareas y discusiones relacionadas con el proyecto.</li>
+        <li><strong>GitHub Actions:</strong> Plataforma de automatización de flujos de trabajo de CI/CD (Integración Continua/Entrega Continua).</li>
+        <li><strong>GitHub Pages:</strong> Permite alojar sitios web directamente desde repositorios de GitHub.</li>
+        <li><strong>Gran Comunidad:</strong> Una de las comunidades de desarrolladores más grandes y activas del mundo.</li>
+    </ul>
+    <h3>Ideal para</h3>
+    <p>Proyectos de código abierto, colaboración a gran escala, desarrolladores individuales y equipos de todos los tamaños.</p>
+</div>
+
+<div class="container platform">
+    <h2><a href="https://gitlab.com/" target="_blank">GitLab</a></h2>
+    <h3>Descripción</h3>
+    <p><strong>GitLab</strong> es una plataforma completa de ciclo de vida de DevOps como una única aplicación. Ofrece funcionalidades que van desde la gestión del código fuente y la planificación de proyectos hasta la CI/CD y el monitoreo.</p>
+    <h3>Características Clave</h3>
+    <ul>
+        <li><strong>Repositorios Git:</strong> Funcionalidad principal para el alojamiento de código.</li>
+        <li><strong>Gestión de Issues y Tareas:</strong> Herramientas integradas para la planificación y seguimiento del trabajo.</li>
+        <li><strong>Pipelines de CI/CD:</strong> Potente sistema de integración y entrega continua configurable a través de archivos <code>.gitlab-ci.yml</code>.</li>
+        <li><strong>GitLab Pages:</strong> Similar a GitHub Pages, para la publicación de sitios web estáticos.</li>
+        <li><strong>Container Registry:</strong> Almacenamiento privado para imágenes de Docker.</li>
+        <li><strong>Auto DevOps:</strong> Funcionalidades para automatizar el ciclo de vida del desarrollo de software.</li>
+        <li><strong>Opciones de Auto-hospedaje:</strong> Además de la versión SaaS, ofrece la posibilidad de instalar GitLab en servidores propios.</li>
+    </ul>
+    <h3>Ideal para</h3>
+    <p>Equipos que buscan una solución DevOps integral, empresas con requisitos de seguridad y cumplimiento específicos (gracias a la opción de auto-hospedaje), y proyectos que requieren una estrecha integración entre diferentes etapas del desarrollo.</p>
+</div>
+
+<div class="container platform">
+    <h2><a href="https://bitbucket.org/" target="_blank">Bitbucket</a></h2>
+    <h3>Descripción</h3>
+    <p><strong>Bitbucket</strong> es un servicio de alojamiento de código basado en la web, propiedad de Atlassian. Se integra estrechamente con otras herramientas de Atlassian como Jira y Trello, lo que lo hace una opción popular para equipos que ya utilizan estos productos.</p>
+    <h3>Características Clave</h3>
+    <ul>
+        <li><strong>Repositorios Git y Mercurial:</strong> Soporta tanto Git como el sistema de control de versiones Mercurial.</li>
+        <li><strong>Repositorios Privados Ilimitados (para equipos pequeños):</strong> Ofrece planes generosos para repositorios privados, especialmente para equipos pequeños.</li>
+        <li><strong>Integración con Jira y Trello:</strong> Facilita la conexión entre el desarrollo de código y la gestión de proyectos.</li>
+        <li><strong>Pipelines de CI/CD:</strong> Permite automatizar los flujos de trabajo de construcción, prueba e implementación.</li>
+        <li><strong>Code Insights:</strong> Permite mostrar resultados de herramientas de análisis de código directamente en las Pull Requests.</li>
+        <li><strong>Branch Permissions:</strong> Control granular sobre quién puede escribir en ciertas ramas.</li>
+    </ul>
+    <h3>Ideal para</h3>
+    <p>Equipos que utilizan las herramientas de Atlassian (Jira, Trello), proyectos que requieren soporte para Mercurial, y equipos pequeños que buscan repositorios privados ilimitados.</p>
+</div>
+
+<div class="container conclusion">
+    <p>GitHub, GitLab y Bitbucket son plataformas poderosas que ofrecen una amplia gama de funcionalidades para la gestión de código y la colaboración. La elección de la plataforma adecuada dependerá de las necesidades específicas de tu proyecto, el tamaño de tu equipo y las herramientas con las que ya estés familiarizado. ¡Explora cada una de ellas para descubrir cuál se adapta mejor a tu flujo de trabajo!</p>
+</div>
+</body>
+</html>
